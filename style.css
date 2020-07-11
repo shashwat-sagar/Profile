@@ -23,7 +23,7 @@ html {
 /* Nav Bar  */
 #nav-bar {
 	height: auto;
-	width: 100%;
+	width: 90%;
 	position: fixed;
 	z-index: 100;
 	background-color: black;
@@ -33,7 +33,7 @@ html {
 	left: 0;
 	top: 0;
 	padding: 1rem 5rem;
-	width: 100%;
+	width: 90%;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -147,7 +147,7 @@ html {
 	width: 100%;
 	padding-top: 50px;
 	justify-content: center;
-	background-color: black;
+	background-color: white;
 	display: flex;
 	flex-direction: column-reverse;
 	justify-content: center;
@@ -160,13 +160,13 @@ html {
 .hero .hero-info .hero-info-heading {
 	font-size: 5rem;
 	font-weight: 500;
-	color: whitesmoke;
+	color: blacksmoke;
 }
 .hero .hero-info .hero-info-subheading {
 	font-size: 1.6rem;
 	text-transform: uppercase;
 	letter-spacing: .5rem;
-	color: whitesmoke;
+	color: blacksmoke;
 }
 .hero .hero-info .hero-info-button {
 	margin-top: 30px;
@@ -204,7 +204,7 @@ html {
 	font-size: 4rem;
 	text-transform: uppercase;
 	letter-spacing: .3rem;
-	color: black;
+	color: white;
 }
 .about .about-info .about-info-desc {
 	font-size: 1.3rem;
