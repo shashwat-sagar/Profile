@@ -272,7 +272,7 @@ html {
 	line-height: 2rem;
 	margin-top: 10px;
 }
-.projects .projects-info .projects-info-button {
+.projects .projects-info .project-info-button {
 	padding: 1.6rem 2.6rem;
 	display: inline-block;
 	background-color: rgba(0, 0, 0, 0.548);
