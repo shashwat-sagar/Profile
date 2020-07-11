@@ -303,10 +303,10 @@ html {
 	position: absolute;
 	content: '';
 	right: -5rem;
-	top: 50%;
+	top: 20%;
 	transform: translateY(-50%);
-	width: 10%;
-	height: 10%;
+	width: 30%;
+	height: 30%;
 	background-color: rgba(34, 33, 33, 0.158);
 	z-index: -1;
 }
