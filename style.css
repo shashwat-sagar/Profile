@@ -305,8 +305,8 @@ html {
 	right: -5rem;
 	top: 50%;
 	transform: translateY(-50%);
-	width: 70%;
-	height: 120%;
+	width: 10%;
+	height: 10%;
 	background-color: rgba(34, 33, 33, 0.158);
 	z-index: -1;
 }
