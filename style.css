@@ -284,6 +284,7 @@ html {
 	margin-top: 20px;
 	margin-bottom: 20px;
         justify-content: center;
+        align-items: center;
 }
 .projects .project-img {
 	margin-top: 50px;
