@@ -261,11 +261,11 @@ html {
 .projects .projects-info {
 	text-align: center;
 }
-.about .about-info .about-info-heading {
+.projects .projects-info .project-info-heading {
 	font-size: 4rem;
 	text-transform: uppercase;
 	letter-spacing: .3rem;
-	color: black;
+	color: blacksmoke;
 }
 .projects .projects-info .project-info-desc {
 	font-size: 1.3rem;
@@ -298,17 +298,7 @@ html {
 .projects .project-img .project-img-wrapper img {
 	height: 100%;
 	width: 100%;
-}
-.projects .project-img .project-img-wrapper::after {
-	position: absolute;
-	content: '';
-	right: -5rem;
-	top: 20%;
-	transform: translateY(-50%);
-	width: 30%;
-	height: 30%;
-	background-color: rgba(34, 33, 33, 0.158);
-	z-index: -1;
+
 }
 /* End Projects Session */
 
