@@ -284,6 +284,7 @@ html {
 	margin-top: 10px;
 }
 .projects .project-img .project-img-wrapper .project-info-button {
+        position: relative;
 	padding: 1.6rem 2.6rem;
 	display: inline-block;
 	background-color: rgba(0, 0, 0, 0.548);
@@ -291,12 +292,21 @@ html {
 	text-decoration: none;
 	font-size: 1.6rem;
 	text-transform: uppercase;
+        overflow: hidden;
 	letter-spacing: .2rem;
 	margin-top: 20px;
 	margin-bottom: 20px;
         justify-content: center;
         align-items: center;
+        transition :0.2s;
 }
+.projects .project-img .project-img-wrapper .project-info-button:hover{
+        color:#255784;
+        background: #738276;
+        box-shadow: 0 0 10px #738276,0 0 40px #fff, 0 0 80px #fff;
+        transition-delay: 1s;
+}
+
 .projects .project-img {
 	margin-top: 50px;
 	display: block;
