@@ -268,6 +268,7 @@ html {
 	min-height: 50vh;
 	padding: 10rem 5rem;
 	flex-direction: column;
+        align-items: center;
 }
 .projects .projects-info {
 	text-align: center;
@@ -300,9 +301,9 @@ html {
         transition :0.2s;
 }
 .projects .project-img .project-img-wrapper .project-info-button:hover{
-        color:#255784;
+        color: blacksmoke;
         background: #738276;
-        box-shadow: 0 0 10px #738276,0 0 40px #fff, 0 0 80px #fff;
+        box-shadow: 0 0 10px #000000,0 0 40px #fff, 0 0 80px #000000;
         transition-delay: 1s;
 }
 
