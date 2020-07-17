@@ -2,7 +2,7 @@
 /* https://play.google.com/store/apps/details?id=ak.andro.easyhtml */
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap');
-@import url(href="//fonts.googleapis.com/css?family=Dancing+Script:400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Alex+Brush');
 * {
 	padding: 0;
 	margin: 0;
@@ -33,7 +33,7 @@ html {
 	background-color: black;
 	left: 0;
 	top: 0;
-	padding: 1rem 5rem;
+	padding: 1rem 2rem;
 	width: 100%;
 	display: flex;
 	align-items: center;
@@ -42,7 +42,7 @@ html {
 
 
 
-.nav-bar .brand a h2{ font-family: "Dancing Script"; 
+.nav-bar .brand h1{ font-family: "Alex Brush"; 
         font-size: 24px; 
         font-style: normal; 
         font-variant: normal; 
@@ -189,7 +189,30 @@ html {
 	text-decoration: none;
 	letter-spacing: .6rem;
 	background-color: rgba(85, 85, 85, 0.534);
+  position: relative;
+  border-radius:15px;
+  overflow: hidden;
+  justify-content: center;
+  transition :0.2s;
+  margin-bottom: 20px;
+
 }
+
+.hero .hero-info .hero-info-button:hover {
+
+
+  color: white;
+  background: rgba(0, 0, 0, 0.548);
+  box-shadow: 0 0 10px #A90C00, 0 0 40px #A90C00, 0 0 80px #A90C00;
+  transition-delay: 1s;
+
+
+
+}
+
+
+
+
 .hero .hero-img {
 	height: auto;
 	width: 80%;
@@ -226,14 +249,27 @@ html {
 	padding: 1.6rem 2.6rem;
 	display: inline-block;
 	background-color: rgba(0, 0, 0, 0.548);
-	color: whitesmoke;
 	text-decoration: none;
 	font-size: 1.6rem;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
 	margin-top: 20px;
 	margin-bottom: 20px;
+  position: relative;
+  color: white;
+  border-radius:15px;
+  overflow: hidden;
+  justify-content: center;
+  transition :0.2s;
 }
+
+.about .about-info .about-info-button:hover {
+  color: white;
+  background: rgba(0, 0, 0, 0.548);
+  box-shadow: 0 0 10px #FF9890, 0 0 40px #FF9890, 0 0 80px #FF9890;
+  transition-delay: 1s;
+}
+
 .about .about-img {
 	margin-top: 50px;
 	display: block;
@@ -286,32 +322,37 @@ html {
 }
 .projects .project-img .project-img-wrapper .project-info-button {
         position: relative;
-	padding: 1.6rem 2.6rem;
-	display: inline-block;
-	background-color: rgba(0, 0, 0, 0.548);
-	color: whitesmoke;
-	text-decoration: none;
-	font-size: 1.6rem;
-	text-transform: uppercase;
+      	padding: 1.6rem 2.6rem;
+      	display: inline-block;
+       	background-color: rgba(0, 0, 0, 0.548);
+      	text-decoration: none;
+      	font-size: 1.6rem;
+      	text-transform: uppercase;
         overflow: hidden;
-	letter-spacing: .2rem;
-	margin-top: 20px;
-	margin-bottom: 20px;
+      	letter-spacing: .2rem;
+      	margin-top: 20px;
+      	margin-bottom: 20px;
         justify-content: center;
         transition :0.2s;
-}
-.projects .project-img .project-img-wrapper .project-info-button:hover{
-        color: blacksmoke;
-        background: #738276;
-        box-shadow: 0 0 10px #000000,0 0 40px #fff, 0 0 80px #000000;
-        transition-delay: 1s;
+        color: white;
+        border-radius:15px;
 }
 
-projects .project-img .project-img-wrapper .project-info-button span{
+.projects .project-img .project-img-wrapper .project-info-button:hover {
+  color: white;
+  background: rgba(0, 0, 0, 0.548);
+  box-shadow: 0 0 10px #FF9890, 0 0 40px #FF9890, 0 0 80px #FF9890;
+  transition-delay: 1s;
+}
+
+
+
+
+.projects .project-img .project-img-wrapper .project-info-button span{
         position: absolute;
         display: block;}
 
-projects .project-img .project-img-wrapper .project-info-button span:nth-child(1)
+.projects .project-img .project-img-wrapper .project-info-button span:nth-child(1)
 {
 top:0;
 left:-100%;
@@ -400,6 +441,7 @@ background: linear-gradient(90deg, transparent, #000000);
 	width: 100%;
 	backface-visibility: hidden;
 	display: flex;
+	border-radius:5px;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
@@ -412,6 +454,7 @@ background: linear-gradient(90deg, transparent, #000000);
 .services .services-info .service .service-card .service-front i {
 	font-size: 4rem;
 	color: black;
+	border-radius:5px;
 	margin-bottom: 10px;
 }
 .services .services-info .service .service-card .service-front .service-front-heading,
@@ -428,9 +471,10 @@ background: linear-gradient(90deg, transparent, #000000);
 	text-align: center;
 }
 .services .services-info .service:nth-child(2) .service-card .service-front {
-	background-image: url(./images/img-2.jpg);
+	background-image: url(./image2.jpg);
 	background-size: cover;
 	position: relative;
+	border-radius:5px;
 	color: white;
 }
 .services .services-info .service:nth-child(2) .service-card .service-front::after {
@@ -439,9 +483,11 @@ background: linear-gradient(90deg, transparent, #000000);
 	left: 0;
 	top: 0;
 	height: 100%;
+	color: white;
 	width: 100%;
-	background-color: rgba(0, 0, 0, 0.274);
+	background-image: url(./image2.jpg);
 	z-index: -1;
+	border-radius: 5px;
 }
 .services .services-info .service:nth-child(2) .service-card .service-front i {
 	color: white;
@@ -470,12 +516,21 @@ background: linear-gradient(90deg, transparent, #000000);
 	text-decoration: none;
 	letter-spacing: .2rem;
 	margin-top: 10px;
-	color: whitesmoke;
+	color: white;
+	border-radius: 15px;
 	transition: .3s ease background-color;
+	
 }
 .hire .hire-button:hover {
-	background-color: black;
+
+  color: white;
+  background: rgba(0, 0, 0, 0.548);
+  box-shadow: 0 0 10px #FF9890, 0 0 40px #FF9890, 0 0 80px #FF9890;
+  transition-delay: 1s;
 }
+
+
+
 /* End Hire Section  */
 
 /* Footer section  */
