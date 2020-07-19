@@ -405,7 +405,7 @@ a:hover span:nth-child(4) {
 
 .projects .project-img .project-img-wrapper .project-info-button:hover {
   color: white;
-  background: rgba(0, 0, 0, 0.548);
+  background: rgba(0, 0, 0, 0.520);
   box-shadow: 0 0 10px #FF9890, 0 0 40px #FF9890, 0 0 80px #FF9890;
   transition-delay: 1s;
 }
